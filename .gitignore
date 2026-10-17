@@ -1,0 +1,12 @@
+# Local package installations and package-manager cache
+.pnpm-store/
+smart-ac-card/node_modules/
+
+# Local Codex workspace data
+.agents/
+.agents.zip
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+*.log

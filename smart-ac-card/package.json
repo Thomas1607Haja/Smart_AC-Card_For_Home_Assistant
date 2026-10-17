@@ -1,0 +1,40 @@
+{
+  "name": "smart-ac-card",
+  "version": "0.4.2",
+  "description": "A configurable Home Assistant custom card for air conditioners.",
+  "type": "module",
+  "main": "dist/smart-ac-card.js",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --host 0.0.0.0",
+    "lint": "eslint \"src/**/*.ts\"",
+    "format": "prettier --write .",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [
+    "home-assistant",
+    "hacs",
+    "lovelace",
+    "custom-card",
+    "air-conditioner",
+    "lit"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lit": "^3.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint": "^9.18.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.20.0",
+    "vite": "^6.0.7"
+  },
+  "custom-card": {
+    "type": "smart-ac-card",
+    "name": "Smart AC Card",
+    "description": "Configurable Home Assistant card for climate control workflows."
+  }
+}
