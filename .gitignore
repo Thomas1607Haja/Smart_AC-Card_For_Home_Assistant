@@ -1,6 +1,6 @@
 # Local package installations and package-manager cache
 .pnpm-store/
-smart-ac-card/node_modules/
+node_modules/
 
 # Local Codex workspace data
 .agents/
